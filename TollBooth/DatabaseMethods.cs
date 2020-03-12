@@ -45,7 +45,7 @@ namespace TollBooth
         .Where(l => l.exported == false)
         .ToList();
                 // TODO 6: Remove the line below.
-                
+                 
             }
 
             exportedCount = licensePlates.Count();
